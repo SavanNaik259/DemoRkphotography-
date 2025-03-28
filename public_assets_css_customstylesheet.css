@@ -713,10 +713,14 @@ input:focus, textarea:focus {
             /*background-color: black;*/
              background-color:#E8E9EB  ;
             /* box-shadow: 3px 3px #898989;*/
+            
              margin-top: 5px;
              transition: all 0.4s ease-in-out;
          }
-
+        }
+        #header-toggle:checked+.hamburger>div {
+          position: fixed;
+        }
         /* Hamburger Animation */
         #header-toggle:checked+.hamburger .top {
             transform: rotate(-45deg);
